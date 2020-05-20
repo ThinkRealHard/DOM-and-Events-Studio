@@ -36,6 +36,8 @@ buttonLand.onclick = function(){
     height = 0;
     document.getElementById("spaceShuttleHeight").innerHTML = 0;
     buttonLand.style.opacity = "0";
+    display.style.top = "250px";
+    display.style.left = "320px";
 }
 
 buttonAbort.onclick = function(){
@@ -46,6 +48,8 @@ buttonAbort.onclick = function(){
         height = 0;
         document.getElementById("spaceShuttleHeight").innerHTML = 0;
         buttonLand.style.opacity = "0";
+        display.style.top = "250px";
+        display.style.left = "320px";
     }
 }
 
